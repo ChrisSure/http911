@@ -1,0 +1,21 @@
+{
+    "name": "snayper911/http-911",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snayper911_Http\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --stderr --colors=always"
+    }
+}
